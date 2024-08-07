@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fm.selectator.jquery.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>ROBOT</title>
+</head>
+
+<body>
+    <div id="doc__wrapper">
+        <div id="title">ROBOT</div>
+        <div id="sub__title">(BEAT OTC MARKET)</div>
+        <div id="content__wrapper">
+            <!-- Removed the banner wrapper -->
+            <div class="platform__wrapper">
+                <select id="platform__box" class="platform__select">
+                    <option value="q" data-left="./imgs/qx.png">QUOTEX</option>
+                    <option value="p" data-left="./imgs/po.png">POCKET OPTION</option>
+                    <option value="b" data-left="./imgs/binomo.png">BINOMO</option>
+                    <option value="o" data-left="./imgs/olymp.png">OLYMP</option>
+                    <option value="i" data-left="./imgs/iq.png">IQ OPTION</option>
+                    <option value="e" data-left="./imgs/ep.jpg">EXPERT OPTION</option>
+                </select>
+            </div>
+            <div class="pair__wrapper">
+                <select id="pair__box" class="pair__select">
+                </select>
+                <select id="time__box" class="time__select">
+                    <option value="a" data-left="./imgs/expire.png">5s</option>
+                    <option value="b" data-left="./imgs/expire.png">10s</option>
+                    <option value="c" data-left="./imgs/expire.png">15s</option>
+                    <option value="d" data-left="./imgs/expire.png">30s</option>
+                    <option selected="" value="e" data-left="./imgs/expire.png">1m</option>
+                    <option value="f" data-left="./imgs/expire.png">2m</option>
+                    <option value="g" data-left="./imgs/expire.png">5m</option>
+                </select>
+            </div>
+            <div id="trade__wrapper">
+                <button id="signal"><img src="images/signal.png" width="20px" height="20px"> GET SIGNAL <img src="images/signal.png" width="20px" height="20px"></button>
+            </div>
+            <div class="loader__2__div">
+                <img src="images/loader__2.gif" alt="" style="width:50px">
+            </div>
+            <div id="center">
+    
